@@ -1,0 +1,168 @@
+body{
+  margin:0;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  font-weight: 300;
+  min-height: 100vh;
+  background: linear-gradient(225deg, white,blueviolet);
+}
+
+p {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+background-color: blueviolet;
+color: white;
+padding: 0 20px;
+margin-bottom:30px;
+}
+
+header ul{
+  margin-left: auto;
+
+}
+
+header  ul{
+  display: flex;
+  flex-direction: row;
+
+}
+
+header  ul li{
+  margin: 15px;
+  list-style-type: none;
+
+}
+
+header  ul li a{
+  text-decoration: none;
+  color:white;
+  font-size: 16px;
+}
+
+/* Main Sections */
+
+section {
+  width: 90%;
+  margin: auto;
+}
+
+/* About Me Section */
+
+#about-me{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.about-me-container{
+  margin: 20px;
+  width: 50%;
+}
+
+/* Projects Section */
+.project-card{
+  padding: 20px;
+  background-color: blueviolet;
+  margin: 20px;
+  border-radius: 30px;
+}
+.card-label{ 
+  padding: 0 20px;
+  color:white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#hw1 {
+  background: url('/src/images/hw1.png');
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+
+}
+
+#Planner {
+  background: url("https://user-images.githubusercontent.com/8907347/149627642-4815a7d0-40e4-4904-b623-57c54f80c1cb.PNG");
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+
+}
+
+#Project1 {
+  background: url('/src/images/Mars.JPG');
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+
+}
+
+#Team {
+  background: url('/src/images/Team.JPG');
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+}
+
+#Weather {
+  background: url("https://user-images.githubusercontent.com/8907347/155858948-dfd34e61-6c73-4bf6-8dcf-e3051b1358fa.JPG");
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+}
+
+#Password {
+  background: url("https://user-images.githubusercontent.com/8907347/155062627-9a03b819-b064-4aef-a6f9-5a8099e9f9af.JPG");
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+}
+
+
+#project-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+footer {
+background-color: blueviolet;
+color: white;
+position: absolute;
+bottom: 0;
+padding: 10px 0;
+width: 100%;
+}
+
+footer nav ul li a{
+  text-decoration: none;
+  color:white;
+  font-size: 16px;
+}
+
+@media  screen and (max-width: 768px) {
+
+  #hw1 {
+      width: 500px;
+      height: 350px;
+  }
+  
+}
